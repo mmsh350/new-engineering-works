@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 jQuery(function ($) {
 	'use strict';
 
@@ -28,7 +21,8 @@ jQuery(function ($) {
 				$(headerOneELement).removeClass('navbar-fixed');
 				$('.header-one').css('margin-bottom', 0);
 			}
-			if ($(window).scrollTop() > headerTopBar) {
+
+			if ($(window).scrollTop()) {
 				$(headerTwoELement).addClass('navbar-fixed');
 				$('.header-two').css('margin-bottom', headerTwoELement.outerHeight());
 			} else {
@@ -225,26 +219,26 @@ jQuery(function ($) {
 				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
 				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>',
 				responsive: [{
-						breakpoint: 992,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3
-						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 481,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3
 					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 481,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
 				]
 			});
 		}
@@ -267,6 +261,5 @@ jQuery(function ($) {
 		mediaPopup();
 
 	});
-
 
 });
