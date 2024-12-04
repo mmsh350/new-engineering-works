@@ -279,7 +279,7 @@ a:focus {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 46px;
   margin: 0 0 60px;
   color: #212121;
@@ -447,7 +447,7 @@ ul.list-arrow li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f105";
   margin-right: 10px;
-  color: #ffb600;
+  color: #133f84;
   font-size: 16px;
   font-weight: bold;
 }
@@ -456,7 +456,7 @@ ul.list-check li:before {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
   margin-right: 10px;
-  color: #ffb600;
+  color: #133f84;
   font-size: 14px;
 }
 
@@ -512,7 +512,7 @@ a[href^=tel] {
 
 .btn-white.btn-primary {
   background: #fff;
-  color: #ffb600;
+  color: #133f84;
 }
 
 .btn-primary {
@@ -725,7 +725,7 @@ ul.navbar-nav>li>a {
 
 ul.navbar-nav>li:hover>a,
 ul.navbar-nav>li.active>a {
-  color: #ffb600 !important;
+  color: #133f84 !important;
 }
 
 /*-- Logo --*/
@@ -872,7 +872,7 @@ ul.top-info-box>li.nav-search i {
   padding: 6px;
   border-radius: 0;
   font-size: 1rem;
-  background: #ffb600;
+  background: #133f84;
 }
 
 .navbar-toggler:focus {
@@ -947,7 +947,7 @@ ul.navbar-nav>li>a i {
 
   .header-two ul.navbar-nav>li.active>a i,
   .header-two ul.navbar-nav>li>a.active i {
-    color: #ffb600;
+    color: #133f84;
   }
 }
 
@@ -1094,7 +1094,7 @@ ul.navbar-nav>li>a {
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>.dropdown-menu>.active>a {
   background: none;
-  color: #ffb600;
+  color: #133f84;
 }
 
 /*-- Nav Search start --*/
@@ -1404,7 +1404,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .slick-dots .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #ffb600;
+  color: #133f84;
 }
 
 .slick-slide {
@@ -1438,7 +1438,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .banner-carousel .carousel-control i:hover {
-  background: #ffb600;
+  background: #133f84;
   color: #fff;
 }
 
@@ -1623,7 +1623,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   left: 50%;
   border-width: 10px;
   border-style: solid;
-  border-color: #ffb600 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: #133f84 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   transform: translateX(-50%);
 }
 
@@ -3285,7 +3285,7 @@ label {
   margin: 0 0 30px;
   padding-left: 15px;
   text-transform: uppercase;
-  border-left: 3px solid #ffb600;
+  border-left: 3px solid #133f84;
 }
 
 /* Widget common */
@@ -3327,7 +3327,7 @@ label {
 }
 
 .sidebar .widget ul li a:hover {
-  color: #ffb600;
+  color: #133f84;
 }
 
 .sidebar .widget ul li i {
@@ -3363,7 +3363,7 @@ label {
 
 .sidebar ul.nav-tabs li.active a,
 .sidebar ul.nav-tabs li:hover a {
-  color: #ffb600;
+  color: #133f84;
 }
 
 .sidebar ul.nav-tabs li {
@@ -3392,7 +3392,7 @@ label {
 
 .sidebar ul.service-menu li.active a,
 .sidebar ul.service-menu li:hover a {
-  background: #ffb600;
+  background: #133f84;
   color: #fff;
   cursor: pointer;
 }
@@ -3458,7 +3458,7 @@ label {
 }
 
 .sidebar .widget-tags ul>li a:hover {
-  background: #ffb600;
+  background: #133f84;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -3490,5 +3490,80 @@ label {
   background-color: #fff;
   color: #133f84;
 }
+
+
+.text-justify {
+  text-align: justify;
+  /* Aligns text evenly on both sides */
+  hyphens: auto;
+  /* Enables word hyphenation for smoother justification */
+  word-break: break-word;
+  /* Prevents overflow from long words */
+  line-height: 1.6;
+  /* Adds comfortable spacing between lines */
+  letter-spacing: 0.5px;
+  /* Slightly improves letter spacing for readability */
+
+}
+
+.specialization-areas {
+  background-color: #f9f9f9;
+}
+
+.specialization-box {
+  background: #fff;
+  transition: transform 0.3s ease;
+
+}
+
+.specialization-box:hover {
+  transform: translateY(-5px);
+}
+
+.specialization-icon {
+  min-width: 60px;
+  text-align: center;
+}
+
+.specialization-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.footer-widget {
+  font-family: Arial, sans-serif;
+
+}
+
+.footer-widget h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #e20072;
+  /* Accent color for the title */
+}
+
+.footer-widget p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contact-info i {
+  color: #e20072;
+  /* Match icon color with your design */
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+.working-hours span {
+  color: #dbd4d4;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
 
 /*# sourceMappingURL=style.css.map */
