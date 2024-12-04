@@ -2150,12 +2150,12 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .accordion-group .card-header .btn[aria-expanded=true] {
-  color: #ffb600;
+  color: #133f8;
 }
 
 .accordion-group .card-header .btn[aria-expanded=true]::before {
   content: "\f106";
-  background-color: #ffb600;
+  background-color: #133f8;
 }
 
 .accordion-group.accordion-classic .card-header .btn:before {
