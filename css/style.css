@@ -3565,5 +3565,51 @@ hr {
   border-top: 1px solid #ddd;
 }
 
+.service-box {
+  background-color: #f9f9f9;
+  /* Light background for a clean look */
+  border-radius: 8px;
+  /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  /* Subtle hover effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* Adds focus */
+}
+
+.service-icon {
+  color: #e20072;
+  /* Matches the accent color from your design */
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  /* Neutral text color for readability */
+  margin-top: 0.5rem;
+}
+
+/* Hide element on screens smaller than 768px */
+@media (max-width: 767.98px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+.phone-link {
+
+  text-decoration: none;
+}
+
+.phone-link:hover {
+  color: #e20072;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
