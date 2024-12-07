@@ -2963,7 +2963,7 @@ img.testimonial-thumb {
 .contact-info-box i {
   float: left;
   font-size: 24px;
-  color: #ffb600;
+  color: #e20072;
 }
 
 .contact-info-box-content {
@@ -3026,7 +3026,7 @@ label {
 }
 
 .entry-header .entry-title a:hover {
-  color: #ffb600;
+  color: #e20072;
 }
 
 .post-single .entry-header .entry-title {
@@ -3705,5 +3705,94 @@ hr {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   /* Enhanced shadow on hover */
 }
+
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+}
+
+.section-sub-title {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+
+
+.contact-info-box:hover {
+  transform: scale(1.05);
+}
+
+
+
+.info-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+}
+
+.contact-form .form-group label {
+  font-weight: 600;
+  color: #555;
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact-form .btn-primary {
+  background-color: #e20072;
+  border-color: #e20072;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #fff;
+  border-color: #000;
+  color: #000
+}
+
+
+.contact-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Ensures even spacing inside the box */
+  align-items: center;
+  height: 100%;
+  /* Ensures all boxes have equal height */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-box .icon {
+  font-size: 36px;
+  color: #007bff;
+  /* Icon color */
+}
+
+.contact-info-box h4 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.contact-info-box p {
+  font-size: 16px;
+  color: #555;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
