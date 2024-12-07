@@ -1892,7 +1892,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .ts-service-classic:hover .ts-service-icon i {
-  background: #ffb600;
+  background: #e20072;
 }
 
 /* Projects area
@@ -1902,7 +1902,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   display: inline-block;
   margin: 20px 0 50px;
   width: 100%;
-  border-bottom: 3px solid #ffb600;
+  border-bottom: 3px solid #e20072;
 }
 
 .shuffle-btn-group label {
@@ -1919,8 +1919,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .shuffle-btn-group label.active {
-  color: #212121;
-  background: #ffb600;
+  color: #fff;
+  background: #e20072;
 }
 
 .shuffle-btn-group label input {
@@ -1969,7 +1969,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   right: 0;
   z-index: 1;
   padding: 5px 12px;
-  background: #ffb600;
+  background: #e20072;
   color: #fff;
   opacity: 0;
   transform: perspective(1px) scale3d(0, 0, 0);
@@ -2007,15 +2007,17 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
-  color: #ffb600;
+  color: #e20072;
+  ;
 }
 
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
-  background: #ffb600;
+  background: #e20072;
+  ;
   display: inline-block;
   padding: 2px 8px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   font-size: 10px;
   text-transform: uppercase;
 }
@@ -3854,5 +3856,35 @@ hr {
   color: #555;
 }
 
+/* Styles for the team member image section */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid #ff0f17;
+  /* Adjust the border color as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.team-image:hover {
+  transform: scale(1.05);
+  /* Zoom effect on hover */
+}
+
+/* Optional: Adjust the grid layout for smaller screens */
+@media (max-width: 767px) {
+  .image-wrapper {
+    padding: 15px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
