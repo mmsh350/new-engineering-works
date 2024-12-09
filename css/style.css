@@ -88,7 +88,7 @@ body {
 
 .preload {
   position: fixed;
-  background: #fff url(https://www.dantata-sawoe.com/images/preload.gif) center center no-repeat;
+  background: #fff url(https://newslimited.org/images/preload.gif) center center no-repeat;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -1509,6 +1509,13 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .box-slide-sub-title {
+    font-size: 20px;
+    /* Adjust for small phones */
+  }
+}
+
 .box-slider-text .btn {
   padding: 10px 20px;
 }
@@ -2186,7 +2193,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .testimonial-area {
   padding: 100px 0;
   background-color: #ffb600;
-  background-image: url(https://www.dantata-sawoe.com/images/parallax2.jpg);
+  background-image: url(https://newslimited.org/images/parallax2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
