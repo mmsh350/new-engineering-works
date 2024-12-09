@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Email template
-    $to = 'info@dantata-sawoe.com'; // Replace with your recipient email
+    $to = 'info@newslimited.org'; // Replace with your recipient email
     $subject = "Contact Form: $subject";
 
     $emailMessage = "
@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class='footer'>
                 <p>Thank you for contacting us. We will respond to your message as soon as possible.</p>
-                <p>&copy; " . date('Y') . " Dantata & Sawoe. All Rights Reserved.</p>
+                <p>&copy; " . date('Y') . " New Engineering Works and Supply Limited. All Rights Reserved.</p>
             </div>
         </div>
     </body>

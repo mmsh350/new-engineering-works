@@ -1,8 +1,6 @@
 window.onload = function () {
-  setTimeout(function () {
-    document.getElementById('preloader').style.display = 'none';
-    document.querySelector('.body-inner').style.display = 'block';
-  }, 1000);
+  document.getElementById('preloader').style.display = 'none';
+  document.querySelector('.body-inner').style.display = 'block';
 };
 
 document.addEventListener("DOMContentLoaded", () => {
